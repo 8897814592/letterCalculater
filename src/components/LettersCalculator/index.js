@@ -26,7 +26,7 @@ class LettersCalculator extends Component {
           </label>
           <input
             type="text"
-            onClick={this.inputValue}
+            onChange={this.inputValue}
             placeholder="Enter the phrase"
             id="myText"
           />
